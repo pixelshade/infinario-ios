@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <Analytics.h>
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [SEGAnalytics debug:YES];
     // Override point for customization after application launch.
+    [SEGAnalytics setupWithConfiguration:[SEGAnalyticsConfiguration configurationWithToken:@"fc088b9c-8b8d-11e5-8152-b083fed290ff"]];
+
+    [[SEGAnalytics sharedAnalytics] reset];
+
+    [[SEGAnalytics sharedAnalytics] identify:@"sdfgsr"
+                                      traits:@{ @"name": @"Pejeter",
+                                                @"email": @"jdf@gsm.com" }];
+    
+//    [[SEGAnalytics sharedAnalytics] track:@"Signed Up"
+//                               properties:@{ @"plan": @"Enterprise" }];
+   
+//    [[SEGAnalytics sharedAnalytics] flush];
     return YES;
 }
 

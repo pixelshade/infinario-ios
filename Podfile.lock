@@ -1,0 +1,15 @@
+PODS:
+  - Analytics/Core-iOS (2.0.17):
+    - TRVSDictionaryWithCaseInsensitivity (= 0.0.2)
+  - Analytics/Segmentio (2.0.17):
+    - Analytics/Core-iOS
+  - TRVSDictionaryWithCaseInsensitivity (0.0.2)
+
+DEPENDENCIES:
+  - Analytics/Segmentio
+
+SPEC CHECKSUMS:
+  Analytics: 51d6163cb568c8ede69f2b92ef4779d91e1524e2
+  TRVSDictionaryWithCaseInsensitivity: 51d2ccf52c6d645d27b63467a98fa02c556e01b0
+
+COCOAPODS: 0.39.0

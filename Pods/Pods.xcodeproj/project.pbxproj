@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12148798258D2E88BB0D0C4BC5C47C97 /* SEGAnalyticsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D2594F0C1E7CCA189244E941664C78F7 /* SEGAnalyticsRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1896A1F0C5EF7EBFA4DA24E7D62FB3FF /* SEGLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC21F7BA2D1737D82B7FC23D7F27578 /* SEGLocation.m */; };
+		21047D71F72AF35C9C2F9D5187FBAE56 /* SEGReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E829969764D44F4FDB142441D65C23 /* SEGReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		258F65BFCE03CB37C6F01BABC3E9F45A /* TRVSDictionaryWithCaseInsensitivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D13FE746DB972EB28F5649E6A60AC /* TRVSDictionaryWithCaseInsensitivity-dummy.m */; };
+		3826F05DEA66FE736ABC15F5382ADCF7 /* SEGBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D32498756304099F057CF25826204E3 /* SEGBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48344E05E918E11BB03511B217A670F7 /* Pods-asdf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2E0C1DB255320560E1C7F86CBD0A21 /* Pods-asdf-dummy.m */; };
+		609BD2167388F4AF1EE69F66636BDE5E /* SEGSegmentioIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 54321895AABBB4BB858915C0393B3EA3 /* SEGSegmentioIntegration.m */; };
+		6A62C0E7F1401376D2E33C3006ACF598 /* SEGAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF37CB86E07F3859F6DF405396BD56A /* SEGAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B43844A4BC22C06711FCF3D5AEDDADD /* SEGAnalyticsIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB4243D682696580C3D2EB0DA412373 /* SEGAnalyticsIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CCF9A5841C6CD351D92798A8D8B4A76 /* SEGAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D632CE213F4FEACB341D9B22784581 /* SEGAnalytics.m */; };
+		74BF257EF0E61A4EFF7792AA809CBF68 /* SEGAnalyticsIntegrations.h in Headers */ = {isa = PBXBuildFile; fileRef = 42780D8609471EEE23C008EAF007F581 /* SEGAnalyticsIntegrations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79F38CCDFADCE017BD3B4253D842A7FD /* SEGAnalyticsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE85F985010517C3957A81995401E87 /* SEGAnalyticsUtils.m */; };
+		93060EB92C13318D7EF0E69C1086738D /* Analytics.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A47C92C1FE56ED27BBBBA032472A47 /* Analytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A283C06ED0D90DA72AE03C3ED3BA99F2 /* TRVSDictionaryWithCaseInsensitivity.h in Headers */ = {isa = PBXBuildFile; fileRef = B277D273475307E7E5C7DE0272CB949E /* TRVSDictionaryWithCaseInsensitivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE7D0D0C52E73B83E20BF5E552976968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B40D47A95D6449164BBDF59D917786E1 /* SEGAnalyticsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CA28F6231028DDBCF80A5CB2A08EF585 /* SEGAnalyticsRequest.m */; };
+		B7058242DC60120315546DA5267F3D4F /* SEGAnalyticsUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D609C9A6D14C7A60F5258D7942A1C519 /* SEGAnalyticsUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C28446CBE10EF5E8EF0A7EDE8953FB03 /* SEGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A69B1885D50371AF61866AD0AB584 /* SEGReachability.m */; };
+		C5E246B9DF7BEB22545F6AF7E36BCA2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C5EDA94C0C8D8A66C72774741A29F816 /* SEGEcommerce.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A009F01B8C953BA0F83850DB0281CEF /* SEGEcommerce.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C60FB4B89143EDFC073B62F7F0A30D7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D5AA16934B05E060D032CBF70261D290 /* SEGSegmentioIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8267E1F4D9AF4C438DF1E9F46687AD08 /* SEGSegmentioIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E23694410E5B076D47BC647C8E2076F7 /* TRVSDictionaryWithCaseInsensitivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AAD7BB9950B0655A622D4ED4315891 /* TRVSDictionaryWithCaseInsensitivity.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E937D2E47B6CB4540CBEB1222FB2A4F7 /* Analytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 612DA353EF5DAD3A6A35F80CD60D30C6 /* Analytics-dummy.m */; };
+		E9750038B60A44BCC2359D65569F7E64 /* SEGLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = B68BDE6632AD378808A1630104F1E02F /* SEGLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1618919E5F6526F313BCB6FC1D2286E /* SEGBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E025843603A8BD79D758441AB254517 /* SEGBluetooth.m */; };
+		F413A24EFFAE897417F19F340C0497C8 /* SEGAnalyticsIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B5A766532254343F7BCECA4EA30B24 /* SEGAnalyticsIntegration.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84CE6032CA9B0DE0AF59BFA2E8E1DA5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF323D0FD55E41286330D25097E9DFF4;
+			remoteInfo = Analytics;
+		};
+		993915DA61B10678D08E8F40E4ACF12A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B627A38032700A359259E3BF2377436;
+			remoteInfo = TRVSDictionaryWithCaseInsensitivity;
+		};
+		B7613D4E95F0C95C557399DD328EEF82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B627A38032700A359259E3BF2377436;
+			remoteInfo = TRVSDictionaryWithCaseInsensitivity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B6A69B1885D50371AF61866AD0AB584 /* SEGReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGReachability.m; path = Analytics/Helpers/SEGReachability.m; sourceTree = "<group>"; };
+		0BE6411116D882B485F405768BE589A3 /* Analytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Analytics-prefix.pch"; sourceTree = "<group>"; };
+		2388039390047F629DE85E87A5BF7D48 /* Pods-asdf-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-asdf-frameworks.sh"; sourceTree = "<group>"; };
+		28B5A766532254343F7BCECA4EA30B24 /* SEGAnalyticsIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalyticsIntegration.m; path = Analytics/SEGAnalyticsIntegration.m; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		42780D8609471EEE23C008EAF007F581 /* SEGAnalyticsIntegrations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsIntegrations.h; path = Analytics/Integrations/SEGAnalyticsIntegrations.h; sourceTree = "<group>"; };
+		504CB24D3635CB514083F4514C9E5412 /* libTRVSDictionaryWithCaseInsensitivity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTRVSDictionaryWithCaseInsensitivity.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		54321895AABBB4BB858915C0393B3EA3 /* SEGSegmentioIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGSegmentioIntegration.m; path = Analytics/Integrations/Segmentio/SEGSegmentioIntegration.m; sourceTree = "<group>"; };
+		5A009F01B8C953BA0F83850DB0281CEF /* SEGEcommerce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGEcommerce.h; path = Analytics/SEGEcommerce.h; sourceTree = "<group>"; };
+		5CE85F985010517C3957A81995401E87 /* SEGAnalyticsUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalyticsUtils.m; path = Analytics/SEGAnalyticsUtils.m; sourceTree = "<group>"; };
+		612DA353EF5DAD3A6A35F80CD60D30C6 /* Analytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Analytics-dummy.m"; sourceTree = "<group>"; };
+		6AE6A931B4DAD224C328F1FC42D2AF1D /* libAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAnalytics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7999F71F6BE31B7E02E7668E746CF554 /* Pods-asdf-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-asdf-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BF9BE1A8539B089182FADD60A5DDD4C /* TRVSDictionaryWithCaseInsensitivity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRVSDictionaryWithCaseInsensitivity.xcconfig; sourceTree = "<group>"; };
+		7D32498756304099F057CF25826204E3 /* SEGBluetooth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGBluetooth.h; path = Analytics/Helpers/SEGBluetooth.h; sourceTree = "<group>"; };
+		7E025843603A8BD79D758441AB254517 /* SEGBluetooth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGBluetooth.m; path = Analytics/Helpers/SEGBluetooth.m; sourceTree = "<group>"; };
+		8267E1F4D9AF4C438DF1E9F46687AD08 /* SEGSegmentioIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGSegmentioIntegration.h; path = Analytics/Integrations/Segmentio/SEGSegmentioIntegration.h; sourceTree = "<group>"; };
+		9074DA109E9DAF6D11296997CB119315 /* Pods-asdf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-asdf.debug.xcconfig"; sourceTree = "<group>"; };
+		9DB4243D682696580C3D2EB0DA412373 /* SEGAnalyticsIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsIntegration.h; path = Analytics/SEGAnalyticsIntegration.h; sourceTree = "<group>"; };
+		A3AAD7BB9950B0655A622D4ED4315891 /* TRVSDictionaryWithCaseInsensitivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRVSDictionaryWithCaseInsensitivity.m; path = TRVSDictionaryWithCaseInsensitivity/TRVSDictionaryWithCaseInsensitivity.m; sourceTree = "<group>"; };
+		A51D13FE746DB972EB28F5649E6A60AC /* TRVSDictionaryWithCaseInsensitivity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRVSDictionaryWithCaseInsensitivity-dummy.m"; sourceTree = "<group>"; };
+		B277D273475307E7E5C7DE0272CB949E /* TRVSDictionaryWithCaseInsensitivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRVSDictionaryWithCaseInsensitivity.h; path = TRVSDictionaryWithCaseInsensitivity/TRVSDictionaryWithCaseInsensitivity.h; sourceTree = "<group>"; };
+		B68BDE6632AD378808A1630104F1E02F /* SEGLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGLocation.h; path = Analytics/Helpers/SEGLocation.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2D632CE213F4FEACB341D9B22784581 /* SEGAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalytics.m; path = Analytics/SEGAnalytics.m; sourceTree = "<group>"; };
+		C5606190153F6F273B5745DFED3E2A03 /* Analytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Analytics.xcconfig; sourceTree = "<group>"; };
+		CA28F6231028DDBCF80A5CB2A08EF585 /* SEGAnalyticsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalyticsRequest.m; path = Analytics/SEGAnalyticsRequest.m; sourceTree = "<group>"; };
+		CFC21F7BA2D1737D82B7FC23D7F27578 /* SEGLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGLocation.m; path = Analytics/Helpers/SEGLocation.m; sourceTree = "<group>"; };
+		D0E829969764D44F4FDB142441D65C23 /* SEGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGReachability.h; path = Analytics/Helpers/SEGReachability.h; sourceTree = "<group>"; };
+		D2594F0C1E7CCA189244E941664C78F7 /* SEGAnalyticsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsRequest.h; path = Analytics/SEGAnalyticsRequest.h; sourceTree = "<group>"; };
+		D609C9A6D14C7A60F5258D7942A1C519 /* SEGAnalyticsUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsUtils.h; path = Analytics/SEGAnalyticsUtils.h; sourceTree = "<group>"; };
+		D7A47C92C1FE56ED27BBBBA032472A47 /* Analytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Analytics.h; path = Analytics/Analytics.h; sourceTree = "<group>"; };
+		D937587AF32A2BC4AB3D6B52469792FF /* Pods-asdf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-asdf.release.xcconfig"; sourceTree = "<group>"; };
+		DE955D2F6532877630F8DED207EC42FB /* Pods-asdf-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-asdf-resources.sh"; sourceTree = "<group>"; };
+		EA0BB2E070EA503DE9606681B5629986 /* libPods-asdf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-asdf.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBED95A6CE576FAEEB89A44BE28E17BF /* Pods-asdf-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-asdf-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F13EAA4515E3F6196948CC3F48184DF3 /* TRVSDictionaryWithCaseInsensitivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRVSDictionaryWithCaseInsensitivity-prefix.pch"; sourceTree = "<group>"; };
+		FB2E0C1DB255320560E1C7F86CBD0A21 /* Pods-asdf-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-asdf-dummy.m"; sourceTree = "<group>"; };
+		FBF37CB86E07F3859F6DF405396BD56A /* SEGAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalytics.h; path = Analytics/SEGAnalytics.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39A4704F9E0105BAFBAEEDB8E830BD56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7D0D0C52E73B83E20BF5E552976968 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74458FAE9697FB9AB8282E42AD264780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60FB4B89143EDFC073B62F7F0A30D7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7B4F79975C42BB9295EF1CE4A951B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E246B9DF7BEB22545F6AF7E36BCA2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E6552207961A48C29347F726A1E887 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				588CAD26EB7B8BD16FE8F373E4212391 /* Core-iOS */,
+				CCE0B6D432D2635091644019B3583977 /* Segmentio */,
+				FDB3BA928106549314F8565BE4FFC82C /* Support Files */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		4B3BDB09055E6132AC395B6B995135C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00E6552207961A48C29347F726A1E887 /* Analytics */,
+				9837E8B2F7BA477F409EF8253752E4FC /* TRVSDictionaryWithCaseInsensitivity */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5133F5328EE822EA385E0C901E1A0FEA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E828D921E81BDC6F9E829B5FFE09F7A8 /* Pods-asdf */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		588CAD26EB7B8BD16FE8F373E4212391 /* Core-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D7A47C92C1FE56ED27BBBBA032472A47 /* Analytics.h */,
+				FBF37CB86E07F3859F6DF405396BD56A /* SEGAnalytics.h */,
+				C2D632CE213F4FEACB341D9B22784581 /* SEGAnalytics.m */,
+				9DB4243D682696580C3D2EB0DA412373 /* SEGAnalyticsIntegration.h */,
+				28B5A766532254343F7BCECA4EA30B24 /* SEGAnalyticsIntegration.m */,
+				42780D8609471EEE23C008EAF007F581 /* SEGAnalyticsIntegrations.h */,
+				D2594F0C1E7CCA189244E941664C78F7 /* SEGAnalyticsRequest.h */,
+				CA28F6231028DDBCF80A5CB2A08EF585 /* SEGAnalyticsRequest.m */,
+				D609C9A6D14C7A60F5258D7942A1C519 /* SEGAnalyticsUtils.h */,
+				5CE85F985010517C3957A81995401E87 /* SEGAnalyticsUtils.m */,
+				7D32498756304099F057CF25826204E3 /* SEGBluetooth.h */,
+				7E025843603A8BD79D758441AB254517 /* SEGBluetooth.m */,
+				5A009F01B8C953BA0F83850DB0281CEF /* SEGEcommerce.h */,
+				B68BDE6632AD378808A1630104F1E02F /* SEGLocation.h */,
+				CFC21F7BA2D1737D82B7FC23D7F27578 /* SEGLocation.m */,
+				D0E829969764D44F4FDB142441D65C23 /* SEGReachability.h */,
+				0B6A69B1885D50371AF61866AD0AB584 /* SEGReachability.m */,
+			);
+			name = "Core-iOS";
+			sourceTree = "<group>";
+		};
+		6ECCCB0D68615F6AAC88AE40F5745B79 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BF9BE1A8539B089182FADD60A5DDD4C /* TRVSDictionaryWithCaseInsensitivity.xcconfig */,
+				A51D13FE746DB972EB28F5649E6A60AC /* TRVSDictionaryWithCaseInsensitivity-dummy.m */,
+				F13EAA4515E3F6196948CC3F48184DF3 /* TRVSDictionaryWithCaseInsensitivity-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TRVSDictionaryWithCaseInsensitivity";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4B3BDB09055E6132AC395B6B995135C8 /* Pods */,
+				A12EAE919DE23F2FFE79FE5228A9A5DD /* Products */,
+				5133F5328EE822EA385E0C901E1A0FEA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9837E8B2F7BA477F409EF8253752E4FC /* TRVSDictionaryWithCaseInsensitivity */ = {
+			isa = PBXGroup;
+			children = (
+				B277D273475307E7E5C7DE0272CB949E /* TRVSDictionaryWithCaseInsensitivity.h */,
+				A3AAD7BB9950B0655A622D4ED4315891 /* TRVSDictionaryWithCaseInsensitivity.m */,
+				6ECCCB0D68615F6AAC88AE40F5745B79 /* Support Files */,
+			);
+			path = TRVSDictionaryWithCaseInsensitivity;
+			sourceTree = "<group>";
+		};
+		A12EAE919DE23F2FFE79FE5228A9A5DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6A931B4DAD224C328F1FC42D2AF1D /* libAnalytics.a */,
+				EA0BB2E070EA503DE9606681B5629986 /* libPods-asdf.a */,
+				504CB24D3635CB514083F4514C9E5412 /* libTRVSDictionaryWithCaseInsensitivity.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CCE0B6D432D2635091644019B3583977 /* Segmentio */ = {
+			isa = PBXGroup;
+			children = (
+				8267E1F4D9AF4C438DF1E9F46687AD08 /* SEGSegmentioIntegration.h */,
+				54321895AABBB4BB858915C0393B3EA3 /* SEGSegmentioIntegration.m */,
+			);
+			name = Segmentio;
+			sourceTree = "<group>";
+		};
+		E828D921E81BDC6F9E829B5FFE09F7A8 /* Pods-asdf */ = {
+			isa = PBXGroup;
+			children = (
+				EBED95A6CE576FAEEB89A44BE28E17BF /* Pods-asdf-acknowledgements.markdown */,
+				7999F71F6BE31B7E02E7668E746CF554 /* Pods-asdf-acknowledgements.plist */,
+				FB2E0C1DB255320560E1C7F86CBD0A21 /* Pods-asdf-dummy.m */,
+				2388039390047F629DE85E87A5BF7D48 /* Pods-asdf-frameworks.sh */,
+				DE955D2F6532877630F8DED207EC42FB /* Pods-asdf-resources.sh */,
+				9074DA109E9DAF6D11296997CB119315 /* Pods-asdf.debug.xcconfig */,
+				D937587AF32A2BC4AB3D6B52469792FF /* Pods-asdf.release.xcconfig */,
+			);
+			name = "Pods-asdf";
+			path = "Target Support Files/Pods-asdf";
+			sourceTree = "<group>";
+		};
+		FDB3BA928106549314F8565BE4FFC82C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5606190153F6F273B5745DFED3E2A03 /* Analytics.xcconfig */,
+				612DA353EF5DAD3A6A35F80CD60D30C6 /* Analytics-dummy.m */,
+				0BE6411116D882B485F405768BE589A3 /* Analytics-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Analytics";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8519B6390AE6C3665EB1205F568B024A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93060EB92C13318D7EF0E69C1086738D /* Analytics.h in Headers */,
+				6A62C0E7F1401376D2E33C3006ACF598 /* SEGAnalytics.h in Headers */,
+				6B43844A4BC22C06711FCF3D5AEDDADD /* SEGAnalyticsIntegration.h in Headers */,
+				74BF257EF0E61A4EFF7792AA809CBF68 /* SEGAnalyticsIntegrations.h in Headers */,
+				12148798258D2E88BB0D0C4BC5C47C97 /* SEGAnalyticsRequest.h in Headers */,
+				B7058242DC60120315546DA5267F3D4F /* SEGAnalyticsUtils.h in Headers */,
+				3826F05DEA66FE736ABC15F5382ADCF7 /* SEGBluetooth.h in Headers */,
+				C5EDA94C0C8D8A66C72774741A29F816 /* SEGEcommerce.h in Headers */,
+				E9750038B60A44BCC2359D65569F7E64 /* SEGLocation.h in Headers */,
+				21047D71F72AF35C9C2F9D5187FBAE56 /* SEGReachability.h in Headers */,
+				D5AA16934B05E060D032CBF70261D290 /* SEGSegmentioIntegration.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8644097C3AEF62D32DF6485E7622140 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A283C06ED0D90DA72AE03C3ED3BA99F2 /* TRVSDictionaryWithCaseInsensitivity.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B627A38032700A359259E3BF2377436 /* TRVSDictionaryWithCaseInsensitivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8068AD5CF58B7F290E0C065D862EBC /* Build configuration list for PBXNativeTarget "TRVSDictionaryWithCaseInsensitivity" */;
+			buildPhases = (
+				FA54ED5EDCE3AEBBECF7A6F5F29695FF /* Sources */,
+				DE7B4F79975C42BB9295EF1CE4A951B4 /* Frameworks */,
+				A8644097C3AEF62D32DF6485E7622140 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRVSDictionaryWithCaseInsensitivity;
+			productName = TRVSDictionaryWithCaseInsensitivity;
+			productReference = 504CB24D3635CB514083F4514C9E5412 /* libTRVSDictionaryWithCaseInsensitivity.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BF323D0FD55E41286330D25097E9DFF4 /* Analytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2528F7BEEDC5D53404A2C7C2A667DCF2 /* Build configuration list for PBXNativeTarget "Analytics" */;
+			buildPhases = (
+				F31B4170C95B732E6BEB4BF7ECE5ACBA /* Sources */,
+				39A4704F9E0105BAFBAEEDB8E830BD56 /* Frameworks */,
+				8519B6390AE6C3665EB1205F568B024A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				623039C0F25FE5670A6D8266127E344B /* PBXTargetDependency */,
+			);
+			name = Analytics;
+			productName = Analytics;
+			productReference = 6AE6A931B4DAD224C328F1FC42D2AF1D /* libAnalytics.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D65E485ED97F09E6BAFC703904A4D454 /* Pods-asdf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095D36EB5ED4D216E87E08E488568EDE /* Build configuration list for PBXNativeTarget "Pods-asdf" */;
+			buildPhases = (
+				8012A9DF098F0759FF02F98704460EB2 /* Sources */,
+				74458FAE9697FB9AB8282E42AD264780 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B10F6C155C820EDB062472633B6EB2C6 /* PBXTargetDependency */,
+				129605F88691B7E49B88603AE5CFD5A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-asdf";
+			productName = "Pods-asdf";
+			productReference = EA0BB2E070EA503DE9606681B5629986 /* libPods-asdf.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A12EAE919DE23F2FFE79FE5228A9A5DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF323D0FD55E41286330D25097E9DFF4 /* Analytics */,
+				D65E485ED97F09E6BAFC703904A4D454 /* Pods-asdf */,
+				6B627A38032700A359259E3BF2377436 /* TRVSDictionaryWithCaseInsensitivity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8012A9DF098F0759FF02F98704460EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48344E05E918E11BB03511B217A670F7 /* Pods-asdf-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31B4170C95B732E6BEB4BF7ECE5ACBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E937D2E47B6CB4540CBEB1222FB2A4F7 /* Analytics-dummy.m in Sources */,
+				6CCF9A5841C6CD351D92798A8D8B4A76 /* SEGAnalytics.m in Sources */,
+				F413A24EFFAE897417F19F340C0497C8 /* SEGAnalyticsIntegration.m in Sources */,
+				B40D47A95D6449164BBDF59D917786E1 /* SEGAnalyticsRequest.m in Sources */,
+				79F38CCDFADCE017BD3B4253D842A7FD /* SEGAnalyticsUtils.m in Sources */,
+				F1618919E5F6526F313BCB6FC1D2286E /* SEGBluetooth.m in Sources */,
+				1896A1F0C5EF7EBFA4DA24E7D62FB3FF /* SEGLocation.m in Sources */,
+				C28446CBE10EF5E8EF0A7EDE8953FB03 /* SEGReachability.m in Sources */,
+				609BD2167388F4AF1EE69F66636BDE5E /* SEGSegmentioIntegration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA54ED5EDCE3AEBBECF7A6F5F29695FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258F65BFCE03CB37C6F01BABC3E9F45A /* TRVSDictionaryWithCaseInsensitivity-dummy.m in Sources */,
+				E23694410E5B076D47BC647C8E2076F7 /* TRVSDictionaryWithCaseInsensitivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		129605F88691B7E49B88603AE5CFD5A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRVSDictionaryWithCaseInsensitivity;
+			target = 6B627A38032700A359259E3BF2377436 /* TRVSDictionaryWithCaseInsensitivity */;
+			targetProxy = 993915DA61B10678D08E8F40E4ACF12A /* PBXContainerItemProxy */;
+		};
+		623039C0F25FE5670A6D8266127E344B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRVSDictionaryWithCaseInsensitivity;
+			target = 6B627A38032700A359259E3BF2377436 /* TRVSDictionaryWithCaseInsensitivity */;
+			targetProxy = B7613D4E95F0C95C557399DD328EEF82 /* PBXContainerItemProxy */;
+		};
+		B10F6C155C820EDB062472633B6EB2C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Analytics;
+			target = BF323D0FD55E41286330D25097E9DFF4 /* Analytics */;
+			targetProxy = 84CE6032CA9B0DE0AF59BFA2E8E1DA5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43A5067B3CA153AEC0EDDC67BE5FE84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D937587AF32A2BC4AB3D6B52469792FF /* Pods-asdf.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4FB3A88C491DC1EE4002D510DC0AE653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5606190153F6F273B5745DFED3E2A03 /* Analytics.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Analytics/Analytics-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E27FE836A77519891D2AB44C195E41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BF9BE1A8539B089182FADD60A5DDD4C /* TRVSDictionaryWithCaseInsensitivity.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TRVSDictionaryWithCaseInsensitivity/TRVSDictionaryWithCaseInsensitivity-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		612AE8AC1E26AF7250BD4863F4548675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5606190153F6F273B5745DFED3E2A03 /* Analytics.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Analytics/Analytics-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70FDFD9D1E17D711C8807BCD1BE1AD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9074DA109E9DAF6D11296997CB119315 /* Pods-asdf.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		81252909C200B9890B91EA60B42CB86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BF9BE1A8539B089182FADD60A5DDD4C /* TRVSDictionaryWithCaseInsensitivity.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TRVSDictionaryWithCaseInsensitivity/TRVSDictionaryWithCaseInsensitivity-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		095D36EB5ED4D216E87E08E488568EDE /* Build configuration list for PBXNativeTarget "Pods-asdf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70FDFD9D1E17D711C8807BCD1BE1AD47 /* Debug */,
+				43A5067B3CA153AEC0EDDC67BE5FE84D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B8068AD5CF58B7F290E0C065D862EBC /* Build configuration list for PBXNativeTarget "TRVSDictionaryWithCaseInsensitivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81252909C200B9890B91EA60B42CB86C /* Debug */,
+				5E27FE836A77519891D2AB44C195E41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2528F7BEEDC5D53404A2C7C2A667DCF2 /* Build configuration list for PBXNativeTarget "Analytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612AE8AC1E26AF7250BD4863F4548675 /* Debug */,
+				4FB3A88C491DC1EE4002D510DC0AE653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

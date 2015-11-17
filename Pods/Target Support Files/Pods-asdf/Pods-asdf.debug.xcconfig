@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 ANALYTICS_VERSION=2.0.17
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Analytics" "${PODS_ROOT}/Headers/Public/TRVSDictionaryWithCaseInsensitivity"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Analytics" -isystem "${PODS_ROOT}/Headers/Public/TRVSDictionaryWithCaseInsensitivity"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Analytics" -l"TRVSDictionaryWithCaseInsensitivity" -weak_framework "CoreBluetooth" -weak_framework "CoreLocation" -weak_framework "SystemConfiguration"
+PODS_ROOT = ${SRCROOT}/Pods
