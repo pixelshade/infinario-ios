@@ -84,7 +84,7 @@ static SEGAnalytics *__sharedInstance = nil;
 
 - (void)onAppForeground:(NSNotification *)note
 {
-    [self refreshSettings];
+//    [self refreshSettings];
 }
 
 - (void)handleAppStateNotification:(NSNotification *)note
@@ -467,7 +467,7 @@ static SEGAnalytics *__sharedInstance = nil;
         }];
 
         // Update settings on each integration immediately
-        [self refreshSettings];
+//        [self refreshSettings];
 
         // Attach to application state change hooks
         NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
